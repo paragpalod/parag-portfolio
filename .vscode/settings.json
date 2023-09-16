@@ -1,0 +1,57 @@
+{
+  "cSpell.words": [],
+  "autoimport.filesToScan": "./src/**",
+  "autoimport.absolute": true,
+  "autoimport.sourceRoot": "./src",
+  "javascript.preferences.importModuleSpecifier": "non-relative",
+  "javascript.suggest.autoImports": true,
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true
+  },
+  "emmet.includeLanguages": {
+    "javascript": "javascriptreact"
+  },
+  "[javascript]": {
+    "editor.defaultFormatter": null,
+    "editor.formatOnSave": false
+  },
+  "[css]": {
+    "editor.defaultFormatter": "vscode.css-language-features",
+    "editor.formatOnSave": true
+  },
+  "editor.formatOnSave": true,
+  "editor.formatOnSaveMode": "file",
+  "eslint.codeAction.showDocumentation": {
+    "enable": true
+  },
+  "tailwindCSS.rootFontSize": 10,
+  "tailwindCSS.includeLanguages": {
+    "css": "css",
+    "javascript": "javascript",
+    "html": "html"
+  },
+  "files.associations": {
+    "*.css": "tailwindcss"
+  },
+  "tailwindCSS.experimental.configFile": "tailwind.config.js",
+  "editor.quickSuggestions": {
+    "strings": true
+  },
+  "eslint.alwaysShowStatus": true,
+  "files.exclude": {
+    ".eslintrc.js": false,
+    ".eslintcache": true,
+    ".gitignore": true,
+    "README.md": true,
+    "dependency-graph.svg": true,
+    ".dependency-cruiser.js": true,
+    "package-lock.json": true,
+    ".next": true,
+    "node_modules": true,
+  },
+  "git.branchProtection": [
+    "main"
+  ],
+  "editor.tabSize": 2,
+  "eslint.codeActionsOnSave.rules": null
+}

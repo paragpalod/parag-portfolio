@@ -1,0 +1,52 @@
+/* you will need to use  */
+
+html {
+  font-size: 62.5%;
+}
+
+/* TODO: need to handle this for 4k screens the media query has to be changed */
+/* you can remove this if you want to support ultrawide screens */
+@media (min-width: 1920px) {
+  html {
+    font-size: 65%;
+    max-width: 1920px;
+    display: flex;
+    justify-content: center;
+  }
+}
+
+@media (max-width: 1600px) {
+  html {
+    font-size: 59%;
+  }
+}
+
+@media (max-width: 1300px) {
+  html {
+    font-size: 56%;
+  }
+}
+
+@media (max-width: 1000px) {
+  html {
+    font-size: 53%;
+  }
+}
+
+@media (max-width: 800px) {
+  html {
+    font-size: 50%;
+  }
+}
+
+@media (max-width: 600px) {
+  html {
+    font-size: 48%;
+  }
+}
+
+@media (max-width: 400px) {
+  html {
+    font-size: 46%;
+  }
+}
