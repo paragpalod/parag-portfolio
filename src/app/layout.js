@@ -2,7 +2,7 @@ import 'styles/globals.css';
 
 const layout = ({ children }) => (
   <html lang="en">
-    <body className="t-container">{children}</body>
+    <body className="t-bg-bg">{children}</body>
   </html>
 );
 

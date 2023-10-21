@@ -40,20 +40,13 @@ const fonts = {
 const colors = {
   transparent: 'transparent',
   current: 'currentColor',
-  black: '#000',
-  white: '#fff',
+  black: '#000000',
+  white: '#ffffff',
+  bg: '#101010',
   gray: {
-    1: '#f7fafc',
-    2: '#edf2f7',
-    3: '#e2e8f0',
-    4: '#cbd5e0',
-    5: '#a0aec0',
-    6: '#718096',
-    7: '#4a5568',
-    8: '#2d3748',
+    1: '#bbbbb',
   },
-  primary: '',
-  secondary: '',
+  primary: '#4bffa5',
 };
 
 // use css variable for the themes drawer: '0.4rem'

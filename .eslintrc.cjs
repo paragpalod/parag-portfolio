@@ -24,12 +24,21 @@ module.exports = {
   extends: [
     'airbnb',
     'prettier',
+    'plugin:react-hooks/recommended',
     'plugin:sonarjs/recommended',
     'plugin:tailwindcss/recommended',
-    'next',
+    // 'next',
     'next/core-web-vitals',
+    '@next/next/recommended',
   ],
-  plugins: ['react', 'prettier', 'sonarjs', 'filenames', 'tailwindcss'],
+  plugins: [
+    'react',
+    'prettier',
+    'sonarjs',
+    'filenames',
+    'tailwindcss',
+    '@next/next',
+  ],
   settings: {
     'import/resolver': {
       node: { paths: ['./src'] },
@@ -123,7 +132,6 @@ module.exports = {
     'no-mixed-operators': OFF,
     'no-multi-assign': OFF,
     'no-multi-spaces': OFF,
-
     'no-prototype-builtins': OFF,
     'no-restricted-properties': OFF,
     'padded-blocks': OFF,
